@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AadarshM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spider Verse | AadarshM</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#000000,#001f4d,#8b0000);
+color:white;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:50px;
+color:#ff2b2b;
+text-shadow:0 0 20px red;
+animation:glow 2s infinite;
+}
+
+.hero h2{
+margin-top:15px;
+font-size:25px;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
+
+@keyframes glow{
+50%{
+text-shadow:0 0 40px red;
+}
+}
+
+.gallery{
+padding:50px 20px;
+}
+
+.gallery h2{
+margin-bottom:25px;
+font-size:35px;
+}
+
+.card{
+display:inline-block;
+margin:15px;
+padding:15px;
+background:rgba(255,255,255,0.08);
+border-radius:20px;
+}
+
+.card img{
+width:320px;
+max-width:90vw;
+border-radius:15px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:red;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+footer{
+padding:30px;
+font-size:18px;
+}
+</style>
 </head>
-<body style="background:black;color:white;text-align:center;">
-<h1>🕷️ Created: AadarshM 🕷️</h1>
-<p>Meri pehli website</p>
+<body>
+
+<section class="hero">
+<h1>🕷️ Welcome To Spider Verse 🕷️</h1>
+<h2>Created : AadarshM</h2>
+<p>Enter The World Of Spider Verse</p>
+</section>
+
+<section class="gallery">
+<h2>Wallpaper Gallery</h2>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=1">
+<br>
+<a href="#" class="btn">Download</a>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=2">
+<br>
+<a href="#" class="btn">Download</a>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=3">
+<br>
+<a href="#" class="btn">Download</a>
+</div>
+
+</section>
+
+<footer>
+❤️ Made By AadarshM ❤️
+</footer>
+
 </body>
 </html>
